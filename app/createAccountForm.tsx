@@ -7,11 +7,11 @@ const CreateAccountForm = ({ formTitle }: { formTitle: string }) => {
       <h1 className="text-3xl font-bold mb-6">{formTitle}</h1>
       <form onSubmit={createAccount}>
         <div className="mb-4">
-          <label className="block text-gray-700">First name<span className="text-red-500">*</span></label>
+          <label className="block text-gray-700">First Name<span className="text-red-500">*</span></label>
           <input className="w-full px-4 py-2 border rounded" name="firstName" type="text" required />
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700">Last name<span className="text-red-500">*</span></label>
+          <label className="block text-gray-700">Last Name<span className="text-red-500">*</span></label>
           <input className="w-full px-4 py-2 border rounded" name="lastName" type="text" required />
         </div>
         <div className="mb-4">
@@ -25,6 +25,7 @@ const CreateAccountForm = ({ formTitle }: { formTitle: string }) => {
             <option value="TT">Trinidad and Tobago</option>
             <option value="JA">Jamaica</option>
             <option value="BD">Barbados</option>
+            <option value="FL">Floptropica</option>
           </select>
         </div>
         <div className="mb-4">
@@ -32,7 +33,7 @@ const CreateAccountForm = ({ formTitle }: { formTitle: string }) => {
           <input className="w-full px-4 py-2 border rounded" name="password" type="password" required />
         </div>
         <div className="mb-6">
-          <label className="block text-gray-700">Confirm password<span className="text-red-500">*</span></label>
+          <label className="block text-gray-700">Confirm Password<span className="text-red-500">*</span></label>
           <input className="w-full px-4 py-2 border rounded" name="passwordConfirmation" type="password" required />
         </div>
         <button className="w-full bg-purple-500 text-white px-4 py-2 rounded" type="submit">Create Account</button>
