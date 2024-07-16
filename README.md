@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## My Changes
+I've been working on making the sign up page resemble the prototype as much as possible. Here is the current look:
+<img width="1440" alt="Screenshot 2024-07-15 at 10 20 15 PM" src="https://github.com/user-attachments/assets/55895be4-3005-4a5a-8af0-4fb34af6f7a7">
+
 ## Getting Started
 
 First, run the development server:
