@@ -1,18 +1,20 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
 import CreateAccountForm from './createAccountForm'; // Ensure correct import path
+import RoleSelection from './roleSelection';
+import CourseCatalogue from './courseCatalogue';
 
-const SignUpPage = () => {
+
+//make note of the first time user for presentation
+const SignUpPage = (props: any) => {
+  const firstTimeUser = props.searchParams?.firstTimeUser === '1'
+  
   return (
     <div>
-      <Header />
-      <main className="py-10 bg-gradient-to-r from-blue-900 to-teal-400">
-        <div className="max-w-md mx-auto mt-10">
-          <CreateAccountForm formTitle="Create Account" />
-        </div>
-      </main>
-      <Footer />
+       {
+        firstTimeUser ?
+          <RoleSelection /> :
+          <CourseCatalogue />
+       }
     </div>
   );
 };
