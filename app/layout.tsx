@@ -19,13 +19,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Header />
-      <main className="py-10 bg-gradient-to-r from-blue-900 to-teal-400">
-        <div className="max-w-md mx-auto mt-10">
-        {children}
+        <div id="__next" className="flex flex-col min-h-screen">
+          <Header />
+          <main className="flex-grow flex items-center justify-center bg-gradient-to-r from-blue-900 to-teal-400">
+            <div className="w-full max-w-7xl p-8">
+              {children}
+            </div>
+          </main>
+          <Footer />
         </div>
-      </main>
-      <Footer />
       </body>
     </html>
   );

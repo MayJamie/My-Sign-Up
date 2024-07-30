@@ -15,6 +15,12 @@ const Header = () => {
           <li><a href="#" className="text-gray-800 hover:text-purple-500">About</a></li>
           <li><a href="#" className="text-gray-800 hover:text-purple-500">CareerSight</a></li>
           <li><a href="#" className="text-gray-800 hover:text-purple-500">Contact Us</a></li>
+
+          {/* Easy Page Access for Debugging */}
+          <li><a href="/role" className="text-gray-800">Role Selection Test</a></li>
+          <li><a href="/login" className="text-gray-800">Login</a></li>
+          <li><a href="/register" className="text-gray-800">Sign Up</a></li>
+          <li><a href="/" className="text-gray-800">Home</a></li>
         </ul>
       </nav>
     </header>

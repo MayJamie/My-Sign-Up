@@ -3,7 +3,7 @@ import { createAccount } from "./actions/formActions";
 
 const CreateAccountForm = ({ formTitle }: { formTitle: string }) => {
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
+    <div className="max-w-md mx-auto mt-auto p-6 bg-white shadow-lg rounded-lg">
       <h1 className="text-3xl font-bold mb-6">{formTitle}</h1>
       <form onSubmit={createAccount}>
         <div className="mb-4">
@@ -25,7 +25,6 @@ const CreateAccountForm = ({ formTitle }: { formTitle: string }) => {
             <option value="TT">Trinidad and Tobago</option>
             <option value="JA">Jamaica</option>
             <option value="BD">Barbados</option>
-            <option value="FL">Floptropica</option>
           </select>
         </div>
         <div className="mb-4">
