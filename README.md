@@ -3,6 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## My Changes
 I've been working on making the sign up page resemble the prototype as much as possible. I used TailwindCSS to stylize the form and I added a header and footer.
 
+Note (30/07/2024): There are temporary links in the header for easy navigation for debugging, etc.
+
 ### Header and Sign Up Form
  <img width="1440" alt="Screenshot 2024-07-15 at 10 36 51 PM" src="https://github.com/user-attachments/assets/fe061520-767c-4e0b-b1f9-546fc5b233f8">
 
