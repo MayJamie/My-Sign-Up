@@ -12,7 +12,7 @@ I've been working on making the sign up page resemble the prototype as much as p
 ### Login
 <img width="1440" alt="Screenshot 2024-07-30 at 8 06 09 PM" src="https://github.com/user-attachments/assets/24bfaf6a-39d1-4202-a459-78f43b4e1b8b">
 
-### Role Selection
+### Role Selection (30/07/24)
 <img width="1440" alt="Screenshot 2024-07-30 at 8 07 07 PM" src="https://github.com/user-attachments/assets/3d8c6096-a78e-482b-bfef-f5e0dca10c6d">
 
 ## Getting Started
