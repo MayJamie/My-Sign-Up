@@ -9,6 +9,12 @@ I've been working on making the sign up page resemble the prototype as much as p
 ### Footer
 <img width="1440" alt="Screenshot 2024-07-15 at 10 24 00 PM" src="https://github.com/user-attachments/assets/958369e7-9343-4b9c-82d7-ccadbd7d481d">
 
+### Login
+<img width="1440" alt="Screenshot 2024-07-30 at 8 06 09 PM" src="https://github.com/user-attachments/assets/24bfaf6a-39d1-4202-a459-78f43b4e1b8b">
+
+### Role Selection
+<img width="1440" alt="Screenshot 2024-07-30 at 8 07 07 PM" src="https://github.com/user-attachments/assets/3d8c6096-a78e-482b-bfef-f5e0dca10c6d">
+
 ## Getting Started
 
 First, run the development server:
