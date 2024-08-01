@@ -1,5 +1,7 @@
 'use client';
 import { createAccount } from "./actions/formActions";
+import Link from 'next/link'
+
 
 const LoginForm = () => {
   return (
@@ -14,7 +16,9 @@ const LoginForm = () => {
           <label className="block text-gray-700">Password<span className="text-red-500">*</span></label>
           <input className="w-full px-4 py-2 border rounded" name="password" type="password" required />
         </div>
-        <button className="w-full bg-purple-500 text-white px-4 py-2 rounded" type="submit">Login</button>
+        <Link href="/">
+          <button className="w-full bg-purple-500 text-white px-4 py-2 rounded" type="submit">Login</button>
+        </Link>
       </form>
       <p className="text-center pt-2">
         <a href="#" className="text-purple-500">Forgot Password?</a>

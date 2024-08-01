@@ -1,5 +1,6 @@
 'use client';
 import { createAccount } from "./actions/formActions";
+import Link from 'next/link'
 
 const CreateAccountForm = ({ formTitle }: { formTitle: string }) => {
   return (
@@ -35,7 +36,9 @@ const CreateAccountForm = ({ formTitle }: { formTitle: string }) => {
           <label className="block text-gray-700">Confirm Password<span className="text-red-500">*</span></label>
           <input className="w-full px-4 py-2 border rounded" name="passwordConfirmation" type="password" required />
         </div>
-        <button className="w-full bg-purple-500 text-white px-4 py-2 rounded" type="submit">Create Account</button>
+        <Link href="/role">
+          <button className="w-full bg-purple-500 text-white px-4 py-2 rounded" type="submit">Create Account</button>
+        </Link>
       </form>
       <p className="text-center pt-2">
         Already have an account? <a href="/login" className="text-purple-500">Login</a>
