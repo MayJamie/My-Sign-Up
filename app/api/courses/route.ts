@@ -9,10 +9,9 @@ export async function GET (req: NextRequest, res: NextResponse) {
     try {
         const courses = await Course.find({});
         console.log(courses);
-        NextResponse.json({ success: true, data: courses });
+        return NextResponse.json({ success: true, data: courses });
       } catch (error) {
-        NextResponse.json({ success: false });
+        return NextResponse.json({ success: false });
       }
-      NextResponse.json({ success: false });
 
 }
