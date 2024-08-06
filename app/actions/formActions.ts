@@ -10,13 +10,14 @@ export const createAccount = async (event: React.FormEvent<HTMLFormElement>) => 
   const passwordConfirmation = form.passwordConfirmation.value;
   const country = form.country.value;
 
-  console.log('Form submitted with values:', {
-    firstName,
+  const data = await fetch("/api/users", {method: "POST", body: JSON.stringify(
+    {firstName,
     lastName,
     email,
     country,
-    password,
-    passwordConfirmation,
-  });
+    password})
+  }).then((res) => res.json());
+
+  console.log(data);
 
 };
